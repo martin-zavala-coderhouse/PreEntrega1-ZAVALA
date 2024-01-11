@@ -1,5 +1,13 @@
-import BannerApp1 from "../assets/banner_app1.jpg";
-import BannerApp2 from "../assets/banner_app2.jpg";
+import Bannerhel from "../assets/bannerhel.png";
+import Bannerbre from "../assets/bannerbre.png";
+import Bannercac from "../assets/bannercac.png";
+import Bannerbon from "../assets/bannerbon.png";
+import Bannerham from "../assets/bannerham.png";
+import Bannerque from "../assets/bannerque.png";
+
+
+
+
 
 const Banner = () => {
     return (
@@ -7,19 +15,19 @@ const Banner = () => {
             <div className="row">
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp1} className="img-fluid" alt="..." />
+                        <img src={Bannerhel} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>Helados Orgánicos</h4>
-                            <p>Pedí la nueva Pileta de Cheddar de McDonald's para enchufarle mucho, muchísimo cheddar a tus papitas, McNuggets y hamburguesa.</p>
+                            <p>Helados de Yoghurt de Sabor Vainilla, Frambuesa, Arandanos</p>
                         </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp2} className="img-fluid" alt="..." />
+                        <img src={Bannercac} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>Chocolates Orgánicos</h4>
-                            <p>Llegó a McDonald's la nueva Bacon Cheddar McMelt, con mucho, muchísimo cheddar, che . Vení a probarla. Chequeadísimo que te va a encantar.</p>
+                            <p>Chocolates de 100% Cacae, 85% Cacao y 70% Cacao</p>
                         </div>
                     </div>
                 </div>
@@ -32,19 +40,19 @@ const Banner = () => {
             <div className="row">
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp1} className="img-fluid" alt="..." />
+                        <img src={Bannerbre} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>Panadería Orgánica</h4>
-                            <p>Pedí la nueva Pileta de Cheddar de McDonald's para enchufarle mucho, muchísimo cheddar a tus papitas, McNuggets y hamburguesa.</p>
+                            <p>Panes de masa madre.</p>
                         </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp2} className="img-fluid" alt="..." />
+                        <img src={Bannerque} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>Quesos Orgánicos</h4>
-                            <p>Llegó a McDonald's la nueva Bacon Cheddar McMelt, con mucho, muchísimo cheddar, che . Vení a probarla. Chequeadísimo que te va a encantar.</p>
+                            <p>Quesos Hechos con leche de cabra orgánica</p>
                         </div>
                     </div>
                 </div>
@@ -61,19 +69,19 @@ const Banner = () => {
             <div className="row">
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp1} className="img-fluid" alt="..." />
+                        <img src={Bannerbon} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>BoneBroth Orgánico</h4>
-                            <p>Pedí la nueva Pileta de Cheddar de McDonald's para enchufarle mucho, muchísimo cheddar a tus papitas, McNuggets y hamburguesa.</p>
+                            <p>BoneBroth de Pollo y Vacuno Orgánico Mezclados con Ajo, Cebolla, Romero, Salvia, Sal De Himalaya, Orégano</p>
                         </div>
                     </div>
                 </div>
                 <div className="col">
                     <div className="card">
-                        <img src={BannerApp2} className="img-fluid" alt="..." />
+                        <img src={Bannerham} className="img-fluid" alt="..." />
                         <div className="card-body text-center">
                             <h4>Hamburguesas Orgánicas</h4>
-                            <p>Llegó a McDonald's la nueva Bacon Cheddar McMelt, con mucho, muchísimo cheddar, che . Vení a probarla. Chequeadísimo que te va a encantar.</p>
+                            <p>Hamburguesas de Pollo y Vacuno Orgánico con Chucrut y Salsa de Ajo y Jengibre   </p>
                         </div>
                     </div>
                 </div>

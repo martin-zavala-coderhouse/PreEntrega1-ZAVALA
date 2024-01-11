@@ -16,7 +16,7 @@
 
 @font-face {
     font-family: 'GillSans';
-    src: url('./assets/GillSans/GillSans-Italic.otf') format('truetype');
+    src: local('Gill Sans Italic'), local('GillSans-Italic'), url('./assets/GillSans/GillSans-Italic.otf') format('truetype');
     font-style: italic;
 }
 
