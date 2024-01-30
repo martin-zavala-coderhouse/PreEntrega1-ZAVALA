@@ -24,13 +24,13 @@ const ItemCount = ({stock}) => {
         }
  
 
-
+    }
 
             useEffect (() => {
                 setItemStock(stock)
-            }, {stock});
+            }, [stock]);
 
-        }
+        
 
     return (
         <>
