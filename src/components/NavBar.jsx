@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import CartWidget from "./CartWidget";
 import LogoMc from "./LogoMc";
 
@@ -11,22 +12,19 @@ const NavBar = () => {
                 <div className="col-md-10 d-flex align-items-center justify-content-center">
                     <ul className="nav">
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Helados</a>
+                            <NavLink className="nav-link text-dark fs-5" activeclassname="active" to={"/"}>Productos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Chocolates</a>
+                            <NavLink className="nav-link text-dark fs-5" to={"/category/chocolates"}>Chocolates</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Panaderia</a>
+                            <NavLink className="nav-link text-dark fs-5" to={"/category/panaderia"}>Panaderia</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Quesos</a>
+                            <NavLink className="nav-link text-dark fs-5" to={"/category/quesos"}>Quesos</NavLink>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Bonebroth</a>
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link text-dark fs-5" href="#">Hamburguesas</a>
+                            <NavLink className="nav-link text-dark fs-5" to={"/category/hamburguesas"}>Hamburguesas</NavLink>
                         </li>
                     </ul>
                 </div>
